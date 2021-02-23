@@ -13,7 +13,7 @@ $(document).ready(function() {
         easing: 'ease',
         // easing: '_linear',
         // infinite: true,
-        // autoplay: true,
+        autoplay: true,
         // pauseOnFocus: true,
         // pauseOnHover: true,
         // pauseOnDotsHover: false,
