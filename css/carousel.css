@@ -57,6 +57,11 @@ body {
     right: 0;
     background: url(/img/icons/ar-right-orange.svg) 0 0 / 100% no-repeat;
 }
+.slider .slick-arrow.slick-next:hover,
+.slider .slick-arrow.slick-prev:hover {
+    background-color: rgb(235, 156, 156);
+    border-radius: 50%;
+}
 
 .slider .slick-dots {
     display: flex;
