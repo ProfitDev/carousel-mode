@@ -113,7 +113,7 @@ body {
     display: none;
 }
 
-
+    /* responsive */
 @media(max-width: 850px) {
     .header-list {
         display: grid;
