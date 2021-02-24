@@ -29,7 +29,6 @@ body {
 .slick-track {
     display: flex;
     align-items: flex-start;
-    border: none;
 }
 
 .slider {
@@ -53,12 +52,11 @@ body {
 .slider .slick-arrow.slick-prev {
     left: 0;
     transform: rotate(180deg);
-    background: url(/img/icons/ar-right.svg) 0 0 / 100% no-repeat;
+    background: url(../img/icons/ar-right-orange.svg) 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next {
     right: 0;
     background: url(/img/icons/ar-right-orange.svg) 0 0 / 100% no-repeat;
-    border: none;
 }
 .slider .slick-arrow.slick-next:hover,
 .slider .slick-arrow.slick-prev:hover {
