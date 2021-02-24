@@ -53,7 +53,7 @@ body {
 .slider .slick-arrow.slick-prev {
     left: 0;
     transform: rotate(180deg);
-    background: url(/img/icons/ar-right-orange.svg) 0 0 / 100% no-repeat;
+    background: url(/img/icons/ar-right.svg) 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next {
     right: 0;
@@ -64,7 +64,6 @@ body {
 .slider .slick-arrow.slick-prev:hover {
     background-color: rgb(235, 156, 156);
     border-radius: 50%;
-    
 }
 
 .slider .slick-dots {
@@ -82,7 +81,6 @@ body {
     height: 10px;
     background-color: rgb(28, 123, 212);
     border-radius: 50%;
-
 }
 
 .slider .slick-dots li.slick-active button {

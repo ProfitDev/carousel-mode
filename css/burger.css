@@ -119,6 +119,7 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         line-height: 35px;
+        
     }
 }
 
@@ -203,6 +204,7 @@ body {
     }
     .header-link {
         font-size: 24px;
+        color: var(--orange-color);
     }
     .header-top-content-burger {
         display: block;
