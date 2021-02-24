@@ -29,6 +29,7 @@ body {
 .slick-track {
     display: flex;
     align-items: flex-start;
+    border: none;
 }
 
 .slider {
@@ -46,6 +47,7 @@ body {
     height: 80px;
     margin: -90px 0 0 0;
     opacity: 0.5;
+    outline: none;
 }
 
 .slider .slick-arrow.slick-prev {
@@ -85,6 +87,5 @@ body {
 
 .slider .slick-dots li.slick-active button {
     background-color: transparent;
-    /* border: 1px solid rgb(216, 85, 44); */
-    border: none;
+    border: 1px solid rgb(216, 85, 44);
 }
