@@ -4,9 +4,9 @@
 
 $(document).ready(function() {
     $('.slider').slick({
-        arrows: true,
+        // arrows: true,
         // dots: true,
-        adaptiveHeight: true,
+        // adaptiveHeight: true,
         slidesToShow: 4,
         slidesToScroll: 3,
         speed: 1000,
@@ -14,7 +14,7 @@ $(document).ready(function() {
         // easing: '_linear',
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 2000,
         pauseOnFocus: true,
         pauseOnHover: true,
         // pauseOnDotsHover: false,
@@ -35,10 +35,11 @@ $(document).ready(function() {
                 settings: {
                     slidesToScroll: 1,
                     slidesToShow: 1,
+                    touchThreshold: 20,
                     arrows: false,
                 }
             }
         ],
-        // mobileFirst: false
+        // mobileFirst: false,
     });
 });
